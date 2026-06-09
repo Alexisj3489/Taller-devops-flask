@@ -25,7 +25,6 @@ services:
       - db
 
   web:
-    # IMPORTANTE: Reemplaza TU_USUARIO_GITHUB por tu usuario
     image: ghcr.io/alexisj3489/taller-devops-flask:1.0.0
     container_name: taller_flask
     ports:
