@@ -12,7 +12,7 @@ def index():
             host="db",
             database="taller_db",
             user="admin",
-            password="password123"
+            password="12345"
         )
         cursor = conexion.cursor()
         

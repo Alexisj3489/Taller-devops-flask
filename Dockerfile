@@ -1,5 +1,5 @@
 # Paso 1: buscar una aplicacion base
-FROM python:3.12-alpine
+FROM python:3.12-slim
 
 # Directorio de trabajo dentro del contenedor
 WORKDIR /app
